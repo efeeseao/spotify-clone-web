@@ -8,7 +8,7 @@
           </v-col>
         </v-row>
 
-        <genre-card-list :total="10"></genre-card-list>
+        <genre-card-list :total="12"></genre-card-list>
       </v-col>
     </v-row>
   </div>
