@@ -38,7 +38,7 @@ export default {
   name: 'Layout',
 
   components: {
-    Player: () => import('@/components/Palyer.vue')
+    Player: () => import('@/components/Player.vue')
   },
 
   data: () => ({
