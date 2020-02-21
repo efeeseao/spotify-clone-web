@@ -32,15 +32,6 @@
                   id: 1
                 }
               }"
-            >Queen</router-link>,
-            <router-link
-              class="ma-0"
-              :to="{
-                name: 'artist',
-                params: {
-                  id: 1
-                }
-              }"
             >Queen</router-link>
           </span>
         </v-col>
@@ -64,7 +55,7 @@
           :key="icon"
           class="mx-3"
         >
-          <v-btn icon :small="icon !== 'play-circle'" :x-large="icon === 'play-circle'">
+          <v-btn icon :small="icon != 'play-circle'" :x-large="icon == 'play-circle'">
             <v-icon v-text="`mdi-${icon}`"></v-icon>
           </v-btn>
         </div>
