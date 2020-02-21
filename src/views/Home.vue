@@ -15,7 +15,7 @@
           :to="{ name: 'genres' }"
         >Generos</router-link>
       </v-col>
-      <v-col>
+      <v-col class="py-0" cols="auto">
         <router-link
           active-class="font-weight-bold"
           class="white--text subtitle-2"
