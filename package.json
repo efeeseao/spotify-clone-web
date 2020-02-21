@@ -1,5 +1,6 @@
 {
   "name": "spotify-web",
+  "author": "Fernando dos Santos nando4803@gmail.com",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -12,6 +13,7 @@
     "register-service-worker": "^1.6.2",
     "vue": "^2.6.11",
     "vue-router": "^3.1.5",
+    "vuetify": "^2.2.14",
     "vuex": "^3.1.2"
   },
   "devDependencies": {
@@ -30,8 +32,11 @@
     "eslint-plugin-standard": "^4.0.0",
     "eslint-plugin-vue": "^6.1.2",
     "node-sass": "^4.12.0",
+    "prettier": "^1.19.1",
     "sass-loader": "^8.0.2",
-    "vue-template-compiler": "^2.6.11"
+    "vue-cli-plugin-vuetify": "^2.0.5",
+    "vue-template-compiler": "^2.6.11",
+    "vuetify-loader": "^1.4.3"
   },
   "eslintConfig": {
     "root": true,
