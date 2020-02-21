@@ -4,7 +4,7 @@
       <v-card-text>
         <v-img
           class="elevation-10"
-          src="http://www.queenonline.com/global/assets/modules/site/images/music/FOREVER.jpg"
+          src="http://www.queenonline.com/global/assets/modules/site/images/music/QUEEN_2.jpg"
         ></v-img>
       </v-card-text>
       <v-card-text class="pt-0">
@@ -16,7 +16,7 @@
                 id: 1
               }
             }"
-          >Queen Forever</router-link>
+          >Queen II</router-link>
         </p>
         <p class="caption font-weight-light mb-4 text-truncate">Queen</p>
         <div style="position: absolute; right: 10px; bottom: 10px" v-show="hover">
