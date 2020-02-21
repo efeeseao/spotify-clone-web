@@ -10,6 +10,13 @@
 export default {
   name: 'GenreCardList',
 
+  props: {
+    total: {
+      type: Number,
+      default: 5
+    }
+  },
+
   components: {
     GenreCard: () => import('./GenreCard.vue')
   }
