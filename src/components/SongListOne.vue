@@ -11,7 +11,7 @@ export default {
   props: {
     total: {
       type: Number,
-      default: 8
+      default: 5
     }
   },
 
