@@ -8,7 +8,7 @@
           </v-col>
         </v-row>
 
-        <album-card-list></album-card-list>
+        <album-card-list-one></album-card-list-one>
       </v-col>
     </v-row>
 
