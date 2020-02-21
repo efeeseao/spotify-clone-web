@@ -1,6 +1,6 @@
 <template>
   <div>
-    <song-list-item-two v-for="item in five" :key="item"></song-list-item-two>
+    <song-list-item-two v-for="item in 5" :key="item"></song-list-item-two>
   </div>
 </template>
 
